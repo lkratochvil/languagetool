@@ -249,4 +249,15 @@
       <!-- don't add languagetool-client-example here, it's built manually only -->
   </modules>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>dev-azure-com-storeit-interactive-artifactory</id>
+            <url>https://pkgs.dev.azure.com/storeit/_packaging/interactive-artifactory/maven/v1</url>
+        </snapshotRepository>
+        <repository>
+            <id>dev-azure-com-storeit-interactive-artifactory</id>
+            <url>https://pkgs.dev.azure.com/storeit/_packaging/interactive-artifactory/maven/v1</url>
+        </repository>
+    </distributionManagement>
+
 </project>
