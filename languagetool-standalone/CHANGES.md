@@ -1,6 +1,6 @@
 # LanguageTool Change Log
 
-## 5.5-SNAPSHOT (release planned for 2021-09-21)
+## 5.4 (release planned for 2021-09-21)
 
   * Resource module added per each language module. The main reason of this change is to make it possible to exclude 
     resources under GPL license and to add them your own way. 
